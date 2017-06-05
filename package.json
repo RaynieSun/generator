@@ -1,0 +1,30 @@
+{
+  "name": "simpleReact",
+  "version": "1.0.0",
+  "description": "a simple React template",
+  "main": "index.js",
+  "repository": "git@github.com:RaynieSun/generator.git",
+  "author": "huangyaqin <huangyaqin@douyu.tv>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
